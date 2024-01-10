@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.332);
+}
+
+.form-container{
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: antiquewhite;
+    margin: 15px;
+}
+form h1{
+    font-size: large;
+}
+
+input, button{
+    border-radius: 4px;
+    border: none;
+    padding: 15px 30px;
+    font-size: large;
+}
+
+button{
+    background-color: #6495ed;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

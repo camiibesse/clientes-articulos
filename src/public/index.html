@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar datos</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <h1>Agregar cliente - artículo</h1>
+            <form method="post" action="/api/clientes">
+                <h1>Agregar cliente</h1>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Juan">
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Pérez">
+
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" placeholder="21">
+
+                <label for="dni">DNI</label>
+                <input type="number" name="dni" placeholder="11.111.111">
+                <button type="submit">Enviar</button>
+            </form>
+
+            <form action="/api/articulos" class="article-form">
+                <h1>Agregar artículo</h1>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Juan">
+
+                <label for="precio">Precio</label>
+                <input type="number" name="precio" placeholder="500$">
+
+                <label for="stock">Stock</label>
+                <input type="number" name="stock" placeholder="17">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
